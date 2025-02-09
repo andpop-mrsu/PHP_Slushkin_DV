@@ -1,0 +1,28 @@
+{
+    "name": "funskrip/calculator",
+    "description": "\"Implementation of a php program on the topic \"Calculator\"\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Funskrip\\Calculator\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "FunSkrip",
+            "email": "flyiq440464@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.1"
+    },
+    "bin": [
+        "bin/calculator"
+    ]
+}
